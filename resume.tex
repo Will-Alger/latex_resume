@@ -1,10 +1,21 @@
 \documentclass[11pt]{resume}
 
 \usepackage{ebgaramond}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\definecolor{softblue}{rgb}{0.2,0.4,0.8} % defining custom color
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=softblue,      % color of internal links (change box color with linkbordercolor)
+    citecolor=softblue,      % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=softblue        % color of external URLs
+}
 
 \name{Will Alger}
-\address{123 Broadway \hfill 123 Pleasant Lane \hfill (502)~$\cdot$~758~$\cdot$~4615 \hfill algerw@icloud.com}
-
+\address{(502)~$\cdot$~758~$\cdot$~4615 \hfill algerw@icloud.com \hfill \href{https://github.com/Will-Alger}{github.com/will-alger} \hfill \href{https://www.linkedin.com/in/will-alger/}{linkedin.com/in/will-alger}}
 \begin{document}
 
 
@@ -20,6 +31,8 @@ Adaptable CS undergraduate graduating in December 2023 with full-stack experienc
 \begin{rSection}{Education}
     \textbf{Northern Kentucky University} \hfill \textit{December 2023} \\ 
     Bachelor of Science, Computer Science \\
+    Minor: Foundations of Knowledge Honors: Natural World Cohort \\
+    Honors Student \\
     Overall GPA: 3.97/4
 
 \end{rSection}
@@ -28,9 +41,9 @@ Adaptable CS undergraduate graduating in December 2023 with full-stack experienc
 
 	\begin{rSubsection}{Kroger Technology}{May 2023 - Current}{Software Engineering Intern | Back-end Engineer}{Cincinnati, OH}
         \item Developing Node.js applications in the Customer Identity, Security, and authentication space. 
-        \item Improve and maintain internal microservices and APIs.
+        \item Improving and maintaining internal microservices and APIs.
         \item Implementing Azure AD B2C Custom policies for customer Sign-in and Sign-up flow.
-        \item Support migration of legacy systems to Azure Platform.
+        \item Supporting migration of legacy systems to Azure Platform.
 	\end{rSubsection}
 
     \begin{rSubsection}{}{May 2022 - August 2022}{Software Engineering Intern | Front-end Engineer}{Cincinnati, OH}
@@ -56,25 +69,29 @@ Adaptable CS undergraduate graduating in December 2023 with full-stack experienc
 
 \begin{rSection}{Projects}
 
-    \begin{rSubsection}{RateMyProfessor Web Scraper – GitHub Repo}{Ongoing}{Developer}{}
-        \item Developing a wrapper to interact with RateMyProfessor’s back-end GraphQL API for an undergraduate research project, allowing data collection of universities, professors, and reviews.
-    \end{rSubsection}
+   \begin{rSubsection}{RateMyProfessor Web Scraper -- \href{https://github.com/Will-Alger/rmp-py}{GitHub}}{Ongoing}{}{}
+       \item Developing a wrapper to interact with RateMyProfessor’s back-end GraphQL API for an undergraduate research project, allowing data collection of universities, professors, and reviews.
+   \end{rSubsection}
+   
+   
+   \begin{rSubsection}{Search Engine for Full-Stack Wiki Application -- \href{https://github.com/Will-Alger/Riki}{GitHub}}{May 2023}{}{}
+       \item Implemented an inverted-index based search engine for a full-stack wiki app utilizing Python, Flask, and SQLite with real-time indexing to ensure up to date search results.
+       \item Utilized automated unit testing in PyUnit to ensure high-quality code contributions.
+       \item Developed comprehensive documentation incorporating requirements traceability, test plan creation, and defect tracking.
+   \end{rSubsection}
 	
-    \begin{rSubsection}{Search Engine for Full-Stack Wiki Application – GitHub Repo}{May 2023}{Developer}{}
-        \item Implemented an inverted-index based search engine for a full-stack wiki app utilizing Python, Flask, and SQLite with real-time indexing to ensure up to date search results.
-        \item Utilized automated unit testing in PyUnit to ensure high-quality code contributions.
-        \item Developed comprehensive documentation incorporating requirements traceability, test plan creation, and defect tracking.
-    \end{rSubsection}
-	
-    \begin{rSubsection}{Linear Feedback Shift Register: Visual Tool – GitHub Repo}{Nov 2022}{Developer}{}
-        \item Developed a dynamic LFSR visualizer on GitHub Pages using JavaScript, jQuery, Bootstrap, HTML \& CSS.
-        \item Empowers cryptology students to deepen understanding of digital encryption.
+    \begin{rSubsection}{Linear Feedback Shift Register: Visual Tool -- \href{https://will-alger.github.io/LFSR/}{GitHub}}{Nov 2022}{}{}
+            \item Developed a dynamic LFSR visualizer on GitHub Pages using JavaScript, jQuery, Bootstrap, HTML \& CSS.
+            \item Empowers cryptology students to deepen understanding of digital encryption.
+            \item Visualizes a core concept in action for better learning experience.
     \end{rSubsection}
 	
 \end{rSection}
 
 \begin{rSection}{Campus Involvement}
-
+    \item Sigma Phi Epsilon Fraternity.
+    \item Internet of Things (IOT) Club -- Build and develop innovative solutions on the Arduino platform with ESP32 microcontrollers.
+    \item Hiking Club.
 \end{rSection}
 
 \end{document}
