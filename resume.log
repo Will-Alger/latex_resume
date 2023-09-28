@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.21)  23 SEP 2023 14:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.21)  28 SEP 2023 00:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -349,14 +349,14 @@ LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 28.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/it' will be
 (Font)              scaled to size 10.95pt on input line 32.
+[1
 
-Overfull \hbox (4.23729pt too wide) in paragraph at lines 73--74
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_qn2lct.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_ne3tkd.enc}]
+Overfull \hbox (4.23729pt too wide) in paragraph at lines 78--79
 []\OT1/EBGaramond-OsF/m/n/10.95 Developing a wrap-per to in-ter-act with Rate-MyPro-fes-sor's back-end GraphQL API for an un-der-grad-u-ate re-search project,
  []
 
-[1
-
-{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_qn2lct.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_ne3tkd.enc}] [2] (./resume.aux)
+[2] (./resume.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -367,13 +367,13 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 Here is how much of TeX's memory you used:
  10387 strings out of 474928
  163263 string characters out of 5763562
- 1934785 words of memory out of 5000000
+ 1933785 words of memory out of 5000000
  31803 multiletter control sequences out of 15000+600000
  567718 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,5n,79p,535b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,5n,79p,535b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on resume.pdf (2 pages, 81159 bytes).
+Output written on resume.pdf (2 pages, 82046 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
